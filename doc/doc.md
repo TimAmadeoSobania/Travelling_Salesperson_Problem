@@ -1,4 +1,4 @@
-# HPC2020_Project2020
+# High Performace Computing 2020
 
 **Autoren:**
 
