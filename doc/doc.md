@@ -39,14 +39,15 @@ Date of Pitch 1: 26.05.2020
 Um eine Aussage über den Erfolg des Parallelisierungsprozesses treffen zu können, werden verschiedene Szenarien auf ihre benötigte Laufzeit untersucht. Die einzelnen Szenarien variieren in der Anzahl an Städten, der Anzahl an Prozessen und der Anzahl an zugeteilten Prozessorkernen. Jedes Szenario wird wiederholt auf dem Cluster ausgeführt und die erzielten Ergebnisse zugehörig und gekennzeichnet mit den Szenario-Variablen in einer CSV gespeichert. Relevante abgespeicherte Ergebnisse sind insbesondere die Berechnungszeit aber auch die kürzeste Länge und die zugehörige Route.
 
 ![n_{Staedte} = 7](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-$ Getestete Anzahl an Staedten = n_{Staedte} = 7 $
-$$Getestete Staedte = [6, 12, 13, 14, 15, 16, 17] $$
-$$Getestete Anzahl an Prozessen = n_{Prozesse} = 13$$
-$$Getestete Prozessanzahlen= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 32, 64]$$
-$$Getestete Anzahl an Prozessorkernen = n_{Prozessorkerne} = 7$$
-$$Getestete Prozessorkernanzahlen = [1, 2, 4, 8, 16, 32, 64]$$
-$$Wiederholungen der Szenarien = n_{Wiederholungen} = 10$$
-$$n_{Staedte} * n_{Prozesse} * n_{Prozessorkerne} * n_{Wiederholungen} = 6370$$
+[Getestete Anzahl an Staedten = n_{Staedte} = 7 ](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+[Getestete Staedte = [6, 12, 13, 14, 15, 16, 17] ](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+[Getestete Anzahl an Prozessen = n_{Prozesse} = ](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+[Getestete Prozessanzahlen= [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 32, 64]](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+
+[Getestete Anzahl an Prozessorkernen = n_{Prozessorkerne} = 7](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+[Getestete Prozessorkernanzahlen = [1, 2, 4, 8, 16, 32, 64]](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+[Wiederholungen der Szenarien = n_{Wiederholungen} = 10](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
+[n_{Staedte} * n_{Prozesse} * n_{Prozessorkerne} * n_{Wiederholungen} = 6370](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 
 Somit wurden insgesamt 6370 Messungen auf dem Cluster ausgeführt. Bei jeder Messung wird durch die Funktion
 „save_results“ eine Zeile, in der die Szenario-Parameter zusammen mit den Ergebnissen enthalten sind, in einer CSV
