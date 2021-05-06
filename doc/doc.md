@@ -2,8 +2,8 @@
 
 **Autoren:**
 
-- Anil Demirci, ademirci
-- Manuel Topp, mtopp1
+- Protected
+- Protected
  
 ## MILESTONE 1: Parallelisierung des Traveling Salesman Problems mit MPI
 
@@ -32,7 +32,7 @@ Date of Pitch 1: 26.05.2020
 
 ## MILESTONE 2: Reposity Wechsel und Analyse der Parallelisierung
 
-- David Leserri, dleserri
+- Protected
 - Tim Sobania, tsobania
 
 ### Messungen
