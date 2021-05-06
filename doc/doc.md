@@ -38,6 +38,7 @@ Date of Pitch 1: 26.05.2020
 ### Messungen
 Um eine Aussage über den Erfolg des Parallelisierungsprozesses treffen zu können, werden verschiedene Szenarien auf ihre benötigte Laufzeit untersucht. Die einzelnen Szenarien variieren in der Anzahl an Städten, der Anzahl an Prozessen und der Anzahl an zugeteilten Prozessorkernen. Jedes Szenario wird wiederholt auf dem Cluster ausgeführt und die erzielten Ergebnisse zugehörig und gekennzeichnet mit den Szenario-Variablen in einer CSV gespeichert. Relevante abgespeicherte Ergebnisse sind insbesondere die Berechnungszeit aber auch die kürzeste Länge und die zugehörige Route.
 
+![n_{Staedte} = 7](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
 $ Getestete Anzahl an Staedten = n_{Staedte} = 7 $
 $$Getestete Staedte = [6, 12, 13, 14, 15, 16, 17] $$
 $$Getestete Anzahl an Prozessen = n_{Prozesse} = 13$$
